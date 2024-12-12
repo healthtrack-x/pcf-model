@@ -1,0 +1,39 @@
+# This CITATION.cff file was generated with cffinit.
+
+cff-version: 1.2.0
+title: 'HealthTrack-X/pcf-model: v0.0.1'
+message: >-
+  Please cite this ontology using the metadata from
+  "preferred-citation".
+type: software
+authors:
+  - given-names: Tony
+    family-names: Amende
+    orcid: 'https://orcid.org/0009-0004-8705-4809'
+    email: tony.amende@gmail.com
+    affiliation: Healthtrack-X
+identifiers:
+  - type: url
+    value: 'https://purls.helmholtz-metadaten.de/pcf-model/'
+    description: Ontology IRI
+repository-code: 'https://github.com/healthtrack-x/pcf-model'
+abstract: >-
+  Computational Material Sample Ontology (CMSO) is an
+  ontology that aims to describe computational materials
+  science samples (or structures), including crystalline
+  defects. Initially focusing on the description at the
+  atomic scale.
+keywords:
+  - ontology
+  - semantic
+  - product carbon footprint
+  - PCF
+license: MIT
+preferred-citation:
+  authors:
+    - family-names: Amende
+      given-names: Tony
+  title: "Product Carbon Footprint Model (PCF)"
+  type: generic
+  year: 2024
+  url: https://purls.helmholtz-metadaten.de/pcf-model/
