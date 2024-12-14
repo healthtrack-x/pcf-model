@@ -8,7 +8,7 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:terms="http://purl.org/dc/terms/">
     <owl:Ontology rdf:about="https://healthtrack-x.github.io/pcf-model">
-        <terms:creator>https://orcid.org/0009-0004-8705-4809</terms:creator>
+        <terms:creator rdf:resource="https://orcid.org/0009-0004-8705-4809"/>
         <terms:license>https://mit-license.org/</terms:license>
         <citation>Amende, T.</citation>
     </owl:Ontology>
