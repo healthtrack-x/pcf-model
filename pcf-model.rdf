@@ -69,29 +69,11 @@
     
 
 
-    <!-- https://healthtrack-x.github.io/pcf-model#design -->
+    <!-- https://healthtrack-x.github.io/pcf-model#endoflife -->
 
-    <owl:Class rdf:about="https://healthtrack-x.github.io/pcf-model#design">
+    <owl:Class rdf:about="https://healthtrack-x.github.io/pcf-model#endoflife">
         <rdfs:subClassOf rdf:resource="https://healthtrack-x.github.io/pcf-model#medicaldevice"/>
-        <rdfs:label xml:lang="en">Design</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://healthtrack-x.github.io/pcf-model#maintainance -->
-
-    <owl:Class rdf:about="https://healthtrack-x.github.io/pcf-model#maintainance">
-        <rdfs:subClassOf rdf:resource="https://healthtrack-x.github.io/pcf-model#medicaldevice"/>
-        <rdfs:label xml:lang="en">Maintainance</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://healthtrack-x.github.io/pcf-model#manufacturing -->
-
-    <owl:Class rdf:about="https://healthtrack-x.github.io/pcf-model#manufacturing">
-        <rdfs:subClassOf rdf:resource="https://healthtrack-x.github.io/pcf-model#medicaldevice"/>
-        <rdfs:label xml:lang="en">Manufacturing</rdfs:label>
+        <rdfs:label xml:lang="en">End of Life</rdfs:label>
     </owl:Class>
     
 
@@ -105,19 +87,28 @@
     
 
 
-    <!-- https://healthtrack-x.github.io/pcf-model#operation -->
-
-    <owl:Class rdf:about="https://healthtrack-x.github.io/pcf-model#operation">
-        <rdfs:subClassOf rdf:resource="https://healthtrack-x.github.io/pcf-model#medicaldevice"/>
-        <rdfs:label xml:lang="en">Operation</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- https://healthtrack-x.github.io/pcf-model#product -->
 
     <owl:Class rdf:about="https://healthtrack-x.github.io/pcf-model#product">
         <rdfs:label xml:lang="en">Product</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://healthtrack-x.github.io/pcf-model#productlife -->
+
+    <owl:Class rdf:about="https://healthtrack-x.github.io/pcf-model#productlife">
+        <rdfs:subClassOf rdf:resource="https://healthtrack-x.github.io/pcf-model#medicaldevice"/>
+        <rdfs:label xml:lang="en">Product Life</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://healthtrack-x.github.io/pcf-model#startofdesign -->
+
+    <owl:Class rdf:about="https://healthtrack-x.github.io/pcf-model#startofdesign">
+        <rdfs:subClassOf rdf:resource="https://healthtrack-x.github.io/pcf-model#medicaldevice"/>
+        <rdfs:label xml:lang="en">Start of Design</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 
