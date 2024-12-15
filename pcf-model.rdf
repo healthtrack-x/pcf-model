@@ -69,9 +69,29 @@
     
 
 
+    <!-- https://healthtrack-x.github.io/pcf-model#configuration -->
+
+    <owl:Class rdf:about="https://healthtrack-x.github.io/pcf-model#configuration">
+        <rdfs:subClassOf rdf:resource="https://healthtrack-x.github.io/pcf-model#medicaldevice"/>
+        <rdfs:label xml:lang="en">Configuration</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://healthtrack-x.github.io/pcf-model#medicaldevice -->
+
+    <owl:Class rdf:about="https://healthtrack-x.github.io/pcf-model#medicaldevice">
+        <rdfs:subClassOf rdf:resource="https://healthtrack-x.github.io/pcf-model#product"/>
+        <rdfs:label xml:lang="en">Medical Device</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- https://healthtrack-x.github.io/pcf-model#product -->
 
-    <owl:Class rdf:about="https://healthtrack-x.github.io/pcf-model#product"/>
+    <owl:Class rdf:about="https://healthtrack-x.github.io/pcf-model#product">
+        <rdfs:label xml:lang="en">Product</rdfs:label>
+    </owl:Class>
 </rdf:RDF>
 
 
