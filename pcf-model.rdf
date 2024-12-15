@@ -10,7 +10,7 @@
     <owl:Ontology rdf:about="https://healthtrack-x.github.io/pcf-model">
         <terms:creator rdf:resource="https://orcid.org/0009-0004-8705-4809"/>
         <terms:description>The Product Carbon Footprint Model is a structured ontology to standardize the representation of carbon emissions associated with products throughout their lifecycle.</terms:description>
-        <terms:license>MIT</terms:license>
+        <terms:license rdf:resource="https://mit-license.org/"/>
         <terms:title>Product Carbon Footprint Model (PCF)</terms:title>
         <citation>Amende, T.</citation>
     </owl:Ontology>
