@@ -8,3 +8,7 @@ This repository serves as a collaborative space for the development of the **Pro
 2) [Use GitHub Discussions for collaborative communications](https://github.com/healthtrack-x/pcf-model/discussions)
 3) [Request a feature](https://github.com/healthtrack-x/pcf-model/issues/new?assignees=&labels=&projects=&template=feature_request.md&title=)
 4) [Report a bug](https://github.com/healthtrack-x/pcf-model/issues/new?assignees=&labels=&projects=&template=bug_report.md&title=)
+
+## Usage of PIDA Service
+
+We are using PIDA service for providing this ontology with Permanent URLs (PURLs), to ensure they remain available and can be accessed reliably available for future access by both humans and machines. For more information please visit [PIDA Service](purls.helmholtz-metadaten.de/).
