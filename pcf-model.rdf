@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="https://healthtrack-x.github.io/pcf-model#"
-     xml:base="https://healthtrack-x.github.io/pcf-model"
+<rdf:RDF xmlns="https://purls.helmholtz-metadaten.de/pcf#"
+     xml:base="https://purls.helmholtz-metadaten.de/pcf"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:terms="http://purl.org/dc/terms/">
-    <owl:Ontology rdf:about="https://healthtrack-x.github.io/pcf-model">
+    <owl:Ontology rdf:about="https://purls.helmholtz-metadaten.de/pcf">
         <terms:creator rdf:resource="https://orcid.org/0009-0004-8705-4809"/>
         <terms:description>The Product Carbon Footprint Model is a structured ontology to standardize the representation of carbon emissions associated with products throughout their lifecycle.</terms:description>
         <terms:license rdf:resource="https://mit-license.org/"/>
@@ -52,9 +52,9 @@
     
 
 
-    <!-- https://healthtrack-x.github.io/pcf-model#citation -->
+    <!-- https://purls.helmholtz-metadaten.de/pcf#citation -->
 
-    <owl:AnnotationProperty rdf:about="https://healthtrack-x.github.io/pcf-model#citation"/>
+    <owl:AnnotationProperty rdf:about="https://purls.helmholtz-metadaten.de/pcf#citation"/>
     
 
 
@@ -69,45 +69,45 @@
     
 
 
-    <!-- https://healthtrack-x.github.io/pcf-model#endoflife -->
+    <!-- https://purls.helmholtz-metadaten.de/pcf#endoflife -->
 
-    <owl:Class rdf:about="https://healthtrack-x.github.io/pcf-model#endoflife">
-        <rdfs:subClassOf rdf:resource="https://healthtrack-x.github.io/pcf-model#medicaldevice"/>
+    <owl:Class rdf:about="https://purls.helmholtz-metadaten.de/pcf#endoflife">
+        <rdfs:subClassOf rdf:resource="https://purls.helmholtz-metadaten.de/pcf#medicaldevice"/>
         <rdfs:label xml:lang="en">End of Life</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://healthtrack-x.github.io/pcf-model#medicaldevice -->
+    <!-- https://purls.helmholtz-metadaten.de/pcf#medicaldevice -->
 
-    <owl:Class rdf:about="https://healthtrack-x.github.io/pcf-model#medicaldevice">
-        <rdfs:subClassOf rdf:resource="https://healthtrack-x.github.io/pcf-model#product"/>
+    <owl:Class rdf:about="https://purls.helmholtz-metadaten.de/pcf#medicaldevice">
+        <rdfs:subClassOf rdf:resource="https://purls.helmholtz-metadaten.de/pcf#product"/>
         <rdfs:label xml:lang="en">Medical Device</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://healthtrack-x.github.io/pcf-model#product -->
+    <!-- https://purls.helmholtz-metadaten.de/pcf#product -->
 
-    <owl:Class rdf:about="https://healthtrack-x.github.io/pcf-model#product">
+    <owl:Class rdf:about="https://purls.helmholtz-metadaten.de/pcf#product">
         <rdfs:label xml:lang="en">Product</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://healthtrack-x.github.io/pcf-model#productlife -->
+    <!-- https://purls.helmholtz-metadaten.de/pcf#productlife -->
 
-    <owl:Class rdf:about="https://healthtrack-x.github.io/pcf-model#productlife">
-        <rdfs:subClassOf rdf:resource="https://healthtrack-x.github.io/pcf-model#medicaldevice"/>
+    <owl:Class rdf:about="https://purls.helmholtz-metadaten.de/pcf#productlife">
+        <rdfs:subClassOf rdf:resource="https://purls.helmholtz-metadaten.de/pcf#medicaldevice"/>
         <rdfs:label xml:lang="en">Product Life</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://healthtrack-x.github.io/pcf-model#startofdesign -->
+    <!-- https://purls.helmholtz-metadaten.de/pcf#startofdesign -->
 
-    <owl:Class rdf:about="https://healthtrack-x.github.io/pcf-model#startofdesign">
-        <rdfs:subClassOf rdf:resource="https://healthtrack-x.github.io/pcf-model#medicaldevice"/>
+    <owl:Class rdf:about="https://purls.helmholtz-metadaten.de/pcf#startofdesign">
+        <rdfs:subClassOf rdf:resource="https://purls.helmholtz-metadaten.de/pcf#medicaldevice"/>
         <rdfs:label xml:lang="en">Start of Design</rdfs:label>
     </owl:Class>
 </rdf:RDF>
